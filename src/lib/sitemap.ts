@@ -26,7 +26,7 @@ export default async function generate() {
 
             return `
               <url>
-                  <loc>${`https://rockstar.bio${route}`}</loc>
+                  <loc>${`https://gauravgola.in${route}`}</loc>
               </url>
             `;
           })

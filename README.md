@@ -17,11 +17,11 @@ To get started with the portfolio project, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
    ```bash
-     git clone https://github.com/therockstarind/rockstar.bio.git
+     git clone https://github.com/golagaurav/gauravgola.in.git
    ```
 2. Navigate to the project directory:
     ```bash
-    cd rockstar.bio
+    cd gauravgola.in
     ```
 3. Install the project dependencies using pnpm package manager:
     ```bash
@@ -40,4 +40,4 @@ Contributions to this project are welcome! If you find any issues or would like 
 Before contributing, make sure to familiarize yourself with the contribution guidelines of this repository.
 
 ## License
-This project is licensed under the [MIT License](https://github.com/therockstarind/rockstar.bio/blob/main/LICENSE). Feel free to use and modify the code as per your needs.
+This project is licensed under the [MIT License](https://github.com/golagaurav/gauravgola.in/blob/main/LICENSE). Feel free to use and modify the code as per your needs.

@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
-  "name": "Rock Star",
-  "short_name": "Rock Star",
-  "description": "Hi 🙋 Welcome To The Boring Introduction. I would love to make a lot friends and find them all around the world 🌍. btw I like to live alone with my own self and please don’t ask me why I like that🙊🙊🙊....",
+  "name": "Gaurav Gola",
+  "short_name": "Gaurav Gola",
+  "description": "I'm Website Developer I also do event promotion. I enjoy turning complex problems into simple, beautiful and intuitive designs. My job is to make your website so that it is functional and user friendly but at the same time attractive. In addition, I add a personal touch to your product and make sure it is attractive and easy to use. My aim is to bring out your message and identity in the most creative way possible.",
   "icons": [
     {
       "src": "icons/maskable_icon_x192.png",
@@ -67,7 +67,7 @@
       "type": "image/png"
     },
     {
-      "src": "screenshots/media.png",
+      "src": "screenshots/movie.png",
       "sizes": "411x821",
       "type": "image/png"
     },
@@ -77,7 +77,12 @@
       "type": "image/png"
     },
     {
-      "src": "screenshots/gallery.png",
+      "src": "screenshots/utilities.png",
+      "sizes": "411x821",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/photos.png",
       "sizes": "411x821",
       "type": "image/png"
     }
@@ -96,8 +101,8 @@
       ]
     },
     {
-      "name": "Media",
-      "url": "/media",
+      "name": "Movie",
+      "url": "/movie",
       "icons": [
         {
           "src": "shortcuts/movie.png",
@@ -120,8 +125,8 @@
       ]
     },
     {
-      "name": "Gallery",
-      "url": "/gallery",
+      "name": "Photos",
+      "url": "/photos",
       "icons": [
         {
           "src": "shortcuts/photos.png",

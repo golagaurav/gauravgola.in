@@ -20,9 +20,9 @@ export default function Utilities() {
       <Seo
         title={`Uses  | ${UserName}`}
         description="In case you are wondering What tech I use, Here's the list of what tech I'm currently using for coding on the daily basis. This list is always changing."
-        keywords={[ "what i use?", "uses", "rockstar.bio", "therocktarind", "rocktarind", "rdrive"]}
-        url="https://rockstar.bio/uses/"
-        ogImage="https://rockstar.bio/og-img/uses.png" 
+        keywords={[ "what i use?", "uses", "gauravgola.in", "gauravgola", "golagaurav", "idrive"]}
+        url="https://gauravgola.in/uses/"
+        ogImage="https://gauravgola.in/og-img/uses.png" 
       />
       <section className="pageTop font-inter">
         <PageTop pageTitle={utilities.title}>{utilities.description}</PageTop>

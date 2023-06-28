@@ -26,9 +26,9 @@ export default function Stats({
       <Seo
         title={`Movies & TV Series  | ${UserName}`}
         description="In case you are wondering What Movies & TV Series I watch and Music I listen, Here's the list of what I'm currently listing or watching on the daily basis. This list is always changing."
-        keywords={[ "what i watch?", "what i listen?", "Movies", "Web Series", "Statistics", "rockstar.bio", "therocktarind", "rocktarind", "rdrive"]}
-        url="https://rockstar.bio/media/"
-        ogImage="https://rockstar.bio/og-img/media.png" 
+        keywords={[ "what i watch?", "what i listen?", "Movies", "Web Series", "Statistics", "gauravgola.in", "gauravgola", "golagaurav", "idrive"]}
+        url="https://gauravgola.in/media/"
+        ogImage="https://gauravgola.in/og-img/media.png" 
       />
       <section className="pageTop font-inter">
         <div>

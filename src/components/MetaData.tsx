@@ -41,34 +41,34 @@ export default function MetaData({
         content="width=device-width,initial-scale=1,minimum-scale=1"
       />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="description" content={description || "Rock Star"} />
+      <meta name="description" content={description || "Gaurav Gola"} />
       <title>{title + (suffix ? ` - ${suffix}` : "")}</title>
       <meta name="theme-color" content="#000" />
       <link rel="shortcut icon" href={faviconHref} sizes="any" />
       <link rel="manifest" href="/manifest.json" />
       <link rel="apple-touch-icon" href="/img/logo.png"></link>
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="author" content="Rock Star"></meta>
+      <meta name="author" content="Gaurav Gola"></meta>
       <meta name="robots" content="index,follow" />
       <meta
         name="keywords"
-        content={`${keywords || ""} Rock-Star.in, Rock Star, therockstarind, RockStar`}
+        content={`${keywords || ""} gauravgola.in, Gaurav Gola, golagaurav, GauravGola`}
       />
 
       {/* Og */}
-      <meta property="og:title" content={`${title || ""} - Rock Star`} />
-      <meta property="og:description" content={description || "Rock Star"} />
-      <meta property="og:site_name" content="Rock Star" />
+      <meta property="og:title" content={`${title || ""} - Gaurav Gola`} />
+      <meta property="og:description" content={description || "Gaurav Gola"} />
+      <meta property="og:site_name" content="Gaurav Gola" />
       <meta property="og:url" content={currentURL} key="ogurl" />
       <meta property="og:image" content={previewImage || ""} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@therockstarind" />
-      <meta name="twitter:title" content={`${title || ""} - Rock Star`} />
+      <meta name="twitter:creator" content="@gauravgolaa" />
+      <meta name="twitter:title" content={`${title || ""} - Gaurav Gola`} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={previewImage || ""} />
-      <meta name="twitter:image:alt" content={title || "Rock Star"}></meta>
+      <meta name="twitter:image:alt" content={title || "Gaurav Gola"}></meta>
       <meta name="twitter:domain" content={currentURL} />
     </Head>
   );

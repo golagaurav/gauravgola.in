@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://rock-star.in/sitemap.xml
+Sitemap: https://gauravgola.in/sitemap.xml

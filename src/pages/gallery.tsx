@@ -13,9 +13,9 @@ export default function Gallery({}: {}) {
       <Seo
         title={`Gallery | ${UserName}`}
         description="Here you watch the all photos & videos of our life Journy . . ."
-        keywords={[ "photos", "videos", "rockstar.bio", "therocktarind", "rocktarind", "rdrive"]}
-        url="https://rockstar.bio/gallery/"
-        ogImage="https://rockstar.bio/og-img/gallery.png" 
+        keywords={[ "photos", "videos", "gauravgola.in", "gauravgola", "golagaurav", "idrive"]}
+        url="https://gauravgola.in/gallery/"
+        ogImage="https://gauravgola.in/og-img/gallery.png" 
       />
         <section className="pageGallery font-inter max-w-6xl">
           <div>

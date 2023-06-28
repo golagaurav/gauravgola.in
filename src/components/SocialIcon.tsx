@@ -1,23 +1,23 @@
 
 import { VscGithub } from "react-icons/vsc";
-import { RiTelegramLine, RiYoutubeLine } from 'react-icons/ri';
+import { RiTelegramLine, RiWhatsappLine } from 'react-icons/ri';
 import { motion } from "framer-motion";
 import Tooltip from "./Tooltip/Tooltip";
 
 function SocialIcon() {
   const socialIcons = [
     {
-      href: 'https://www.youtube.com/@TheRockStarIND',
-      icon: <RiYoutubeLine />,
-      tooltip: 'YouTube',
+      href: 'https://wa.me/919720040143?text=Hello...',
+      icon: <RiWhatsappLine />,
+      tooltip: 'Whatsapp',
     },
     {
-      href: 'https://github.com/therockstarind',
+      href: 'https://github.com/golagaurav',
       icon: <VscGithub />,
       tooltip: 'Github',
     },
     {
-      href: 'https://t.me/RockStarIND',
+      href: 'https://t.me/Gauravgola',
       icon: <RiTelegramLine />,
       tooltip: 'Telegram',
     }

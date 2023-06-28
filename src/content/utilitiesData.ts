@@ -61,7 +61,7 @@ const utilities: Utilities = {
         },
         {
           name: "16TB HDD",
-          description: "Seagate 16TB HDD Exos X16 For RDRIVE Data Store",
+          description: "Seagate 16TB HDD Exos X16 For idrive Data Store",
           Icon: SiSeagate,
           link: "https://www.amazon.in/Seagate-256MB-3-5-Inch-Enterprise-ST16000NM001G/dp/B07SPFPKF4",
         },

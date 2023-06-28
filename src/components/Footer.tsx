@@ -22,11 +22,11 @@ export default function Footer({
         <Spotify />
         <SocialIcon />
         <Link
-            href="https://wakatime.com/@rockstar"
+            href="https://wakatime.com/@gauravgola"
         >
             <Image
               alt="wakatime"
-              src='https://wakatime.com/badge/user/a634381e-edc6-48e4-a267-5a64225c7dee.svg'
+              src='https://wakatime.com/badge/user/1fd3eb16-2a0d-4a74-95c4-d941d70f337f.svg'
               width={150}
               height={20}
               className="mx-auto mb-6"

@@ -80,7 +80,7 @@ export default function ShareOnSocialMedia({
             <GrFacebookOption className="w-4 h-4" />
           </div>
         </FacebookShareButton>
-        <TwitterShareButton title={title} url={url} related={["@therockstarind"]}>
+        <TwitterShareButton title={title} url={url} related={["@gauravgolaa"]}>
           <div className="bg-gray-700 text-white p-2 rounded-full">
             <GrTwitter className="w-4 h-4" />
           </div>

@@ -30,10 +30,12 @@ export default function Home({ }: { blogs: FrontMatter[] }) {
     <>
       <Seo
         title={`${UserName}`}
-        description="Hi 🙋 Welcome To The Boring Introduction. I would love to make a lot friends and find them all around the world 🌍. btw I like to live alone with my own self and please don’t ask me why I like that🙊🙊🙊...."
-        keywords={["rockstar.bio", "therocktarind", "rocktarind", "rdrive"]}
-        url="https://rockstar.bio"
-        ogImage="https://rockstar.bio/og-img/home.png" 
+        description="               I'm Website Developer I also do event promotion.
+        I enjoy turning complex problems into simple, beautiful and intuitive designs.
+        My job is to make your website so that it is functional and user friendly but at the same time attractive..."
+        keywords={["gauravgola.in", "gauravgolaa", "golagaurav", "idrive"]}
+        url="https://gauravgola.in"
+        ogImage="https://gauravgola.in/og-img/home.png" 
       />
       <div className="relative dark:bg-darkPrimary dark:text-gray-100 max-w-4xl 2xl:max-w-5xl 3xl:max-w-7xl mx-auto">
         <motion.section
@@ -70,7 +72,7 @@ export default function Home({ }: { blogs: FrontMatter[] }) {
                   variants={opacityVariant}
                   className="font-medium text-xs md:text-sm lg:text-lg text-[#383838] dark:text-gray-200"
                 >
-                  Software - Hardware
+                  Website Developer
                 </motion.p>
                 <Greeting />
               </div>
@@ -79,9 +81,9 @@ export default function Home({ }: { blogs: FrontMatter[] }) {
                 variants={opacityVariant}
                 className=" text-[#474747] dark:text-gray-300 font-medium text-sm md:text-base text-center"
               >
-               Hi 🙋 Welcome To The Boring Introduction. <br/>
-               I would love to make a lot friends and find them all around the world 🌍<br/>
-                btw I like to live alone with my own self and please don’t ask me why I like that🙊🙊🙊....
+               I'm Website Developer I also do event promotion.
+               I enjoy turning complex problems into simple, beautiful and intuitive designs.
+               My job is to make your website so that it is functional and user friendly but at the same time attractive...
               </motion.p>
             </div>
 

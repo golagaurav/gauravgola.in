@@ -82,7 +82,7 @@ export default function BlogLayout({
 
           <div className="flex gap-2 ml-4">
             <Link
-              href={`https://github.com/therockstarind/rockstarind.bio/edit/main/posts/${post.meta.slug}.mdx`}
+              href={`https://github.com/golagaurav/gauravgola.in/edit/main/posts/${post.meta.slug}.mdx`}
               title="Edit on Github"
               target="_blank"
               rel="noopener noreferrer"
