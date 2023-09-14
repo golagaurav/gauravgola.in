@@ -1,4 +1,3 @@
-import { FcGoogle } from "react-icons/fc";
 import {
   SiIntel,
   SiSamsung,
@@ -35,6 +34,13 @@ const utilities: Utilities = {
     {
       title: "System",
       data: [
+        {
+          name: "HP X360",
+          description: "HP X360 1030 G4 Laptop",
+          Icon: SiHp,
+          link: "https://www.amazon.in/HP-EliteBook-x360-Touchscreen-Notebook/dp/B07FN5L8Q9",
+        },
+
         {
           name: "HP X360",
           description: "HP X360 1030 G3 Laptop",
@@ -102,10 +108,10 @@ const utilities: Utilities = {
       title: "Mobile",
       data: [
         {
-          name: "Pixel 4a",
-          description: "Google Pixel 4a (Just Black, 128 GB)  (6 GB RAM)",
-          Icon: FcGoogle,
-          link: "https://www.flipkart.com/google-pixel-4a-just-black-128-gb/p/itm023b9677aa45d",
+          name: "Xiaomi 11X",
+          description: "Xiaomi 11X 5G (Celestial Silver, 128 GB)  (6 GB RAM)",
+          Icon: SiXiaomi,
+          link: "https://www.mi.com/in/mi-11x/",
         },
         {
           name: "iPhone X",
@@ -114,22 +120,16 @@ const utilities: Utilities = {
           link: "https://support.apple.com/kb/sp770?locale=en_US",
         },
         {
-          name: "Redmi Note 10",
-          description: "REDMI Note 10 (Shadow Black, 128 GB)  (6 GB RAM)",
-          Icon: SiXiaomi,
-          link: "https://www.mi.com/in/redmi-note-10/",
-        },
-        {
           name: "Redmi K20 Pro",
           description: "Redmi K20 Pro (Carbon Black, 128 GB)  (6 GB RAM)",
           Icon: SiXiaomi,
           link: "https://www.mi.com/in/redmi-k20-pro/",
         },
         {
-          name: "Vivo V17",
-          description: "Vivo V17 (Midnight Ocean, 8GB RAM, 128GB Storage)",
+          name: "Vivo V73",
+          description: "Vivo V73 (Diamond Flare, 8GB RAM, 128GB Storage)",
           Icon: SiVivaldi,
-          link: "https://www.vivo.com/in/products/param/v17",
+          link: "https://www.vivo.com/in/products/y73?fromSuggestion=Y73",
         },
         {
           name: "iPhone 7",

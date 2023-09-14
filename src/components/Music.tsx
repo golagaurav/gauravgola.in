@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Howl } from 'howler';
 import { motion } from 'framer-motion';
-import { FcMusic } from 'react-icons/fc';
 
 const audioFileUrl = '/music/audio.mp3';
 
@@ -76,7 +75,6 @@ export default function MusicPlayer() {
             animate="visible"
             exit="hidden"
           >
-            <FcMusic size={24} className="animate-[spin_7s_linear_infinite]" />
           </motion.div>
         ) : (
           <motion.div
@@ -85,7 +83,6 @@ export default function MusicPlayer() {
             animate="visible"
             exit="hidden"
           >
-            <FcMusic size={24} />
           </motion.div>
         )}
       </motion.button>
