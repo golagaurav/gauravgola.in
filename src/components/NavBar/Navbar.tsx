@@ -7,7 +7,6 @@ import {
 } from "./../../content/FramerMotionVariants";
 import { useDarkMode } from "../../context/darkModeContext";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
-import MusicPlayer from "../Music";
 import NavBar from "./os";
 import { UserName } from "@/utils/utils";
 import Image from "next/image";
@@ -43,7 +42,6 @@ export default function Navbar() {
         variants={popUp}
         className="cursor-pointer flex space-x-6"
       >
-        <MusicPlayer />
         <DarkModeSwitch
           checked={isDarkMode}
           onChange={changeDarkMode}

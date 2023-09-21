@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { fetchMovieRatings, fetchTVMediaRatings, MediaRating } from '@lib/tmdbApi';
+import { fetchMovieRatings } from '@/lib/tmdb'; 
+import { MediaRating } from '@lib/interface'
 import Link from 'next/link';
 import { AiFillHeart } from 'react-icons/ai';
 import StarRating from '../StarRating';
@@ -10,12 +11,9 @@ interface MediaProps {
 }
 
 const Media: React.FC<MediaProps> = ({ media }) => {
-  const mediaType = media.mediaType === 'movie' ? 'movie' : 'tv';
-
-  // Movies component
   return (
     <Link
-      href={`https://www.themoviedb.org/${mediaType}/${media.id}`}
+      href={`https://www.themoviedb.org/movie/${media.id}`}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -45,8 +43,6 @@ const Media: React.FC<MediaProps> = ({ media }) => {
     </Link>
   );
 };
-
-// Loading Movies component
 function LoadingMovies() {
   return (
     <>
@@ -71,30 +67,15 @@ function LoadingMovies() {
     </>
   );
 }
-
-// TMDBList component
-const TMDBList: React.FC = () => {
+const MovieCard: React.FC = () => {
   const [mediaRatings, setMediaRatings] = useState<MediaRating[]>([]);
 
   useEffect(() => {
     const fetchMediaData = async () => {
       const movieRatings = await fetchMovieRatings();
-      const tvRatings = await fetchTVMediaRatings();
 
-      if (movieRatings && tvRatings) {
-        const mixedRatings: MediaRating[] = [];
-        let i = 0;
-        while (i < movieRatings.length || i < tvRatings.length) {
-          if (i < movieRatings.length) {
-            mixedRatings.push({ ...movieRatings[i], mediaType: 'movie' });
-          }
-          if (i < tvRatings.length) {
-            mixedRatings.push({ ...tvRatings[i], mediaType: 'tv' });
-          }
-          i++;
-        }
-
-        setMediaRatings(mixedRatings);
+      if (movieRatings) {
+        setMediaRatings(movieRatings);
       }
     };
 
@@ -114,4 +95,4 @@ const TMDBList: React.FC = () => {
   );
 };
 
-export default TMDBList;
+export default MovieCard;

@@ -23,6 +23,7 @@ export default async function handler(
   const album = song.item.album.name;
   const albumImageUrl = song.item.album.images[0].url;
   const songUrl = song.item.external_urls.spotify;
+  const embedUrl = getEmbedUrl(songUrl);
 
   // res.setHeader(
   //   "Cache-Control",
@@ -36,5 +37,16 @@ export default async function handler(
     isPlaying,
     songUrl,
     title,
+    embedUrl,
   });
+}
+
+/**
+ * Retrieves the embed URL for a Spotify track based on the track URL.
+ * @param url The Spotify track URL
+ * @returns The embed URL for the track
+ */
+const getEmbedUrl = (url: string): string => {
+  const trackId = url.split("/").pop();
+  return `https://open.spotify.com/embed/track/${trackId}`;
 }

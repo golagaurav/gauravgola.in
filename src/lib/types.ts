@@ -14,6 +14,7 @@ export type AnimatedTAGProps = {
 
 /* Spotify Track  */
 export type SpotifyTrack = {
+  embedUrl: string;
   id: number;
   title: string;
   url: string;
@@ -111,6 +112,7 @@ export type SupportMe = {
 };
 
 export type Song = {
+  embedUrl: string;
   album: string;
   artist: string;
   albumImageUrl: string;

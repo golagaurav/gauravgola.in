@@ -1,6 +1,11 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { topTracks } from "../../../lib/spotify";
 
+const getEmbedUrl = (url: string): string => {
+  const trackId = url.split("/").pop();
+  return `https://open.spotify.com/embed/track/${trackId}`;
+};
+
 export default async function handler(
   _req: NextApiRequest,
   res: NextApiResponse
@@ -13,6 +18,7 @@ export default async function handler(
     artist: track.artists.map((artist: any) => artist.name).join(", "),
     url: track.external_urls.spotify,
     coverImage: track.album.images[1],
+    embedUrl: getEmbedUrl(track.external_urls.spotify),
   }));
 
   res.setHeader(

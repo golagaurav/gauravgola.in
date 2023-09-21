@@ -6,7 +6,7 @@ export default function Codepen({ id }: { id: string }) {
         style={{ marginTop: "10px" }}
         className="w-full"
         scrolling="no"
-        src={`https://codepen.io/gauravgola/embed/${id}`}
+        src={`https://codepen.io/Gaurav-Gola/embed/${id}`}
         frameBorder="no"
         loading="lazy"
         allowFullScreen={true}

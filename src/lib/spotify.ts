@@ -36,9 +36,9 @@ export const topTracks = async (): Promise<Response> => {
   // Obtain an access token
   const { access_token }: { access_token: string } = await getAccessToken();
 
-  // Make a request to the Spotify API to retrieve the user's top tracks in last 4 weeks
+  // Make a request to the Spotify API to retrieve the user's top tracks in the last 4 weeks
   return fetch(
-    "https://api.spotify.com/v1/me/top/tracks?limit=10&time_range=short_term",
+    "https://api.spotify.com/v1/me/top/tracks?limit=6&time_range=short_term",
     {
       headers: {
         // Set the Authorization header with the access token
@@ -46,7 +46,14 @@ export const topTracks = async (): Promise<Response> => {
       },
     }
   );
+
 };
+
+/**
+ * Retrieves the embed URL for a Spotify track based on the track URI.
+ * @param uri The Spotify track URI
+ * @returns The embed URL for the track
+ */
 
 /**
  * Makes a request to the Spotify API to retrieve the user's top artists.
