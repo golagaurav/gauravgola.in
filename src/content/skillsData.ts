@@ -7,7 +7,6 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiGit,
-  SiMysql,
   SiTypescript,
   SiReact,
   SiPhp,
@@ -48,10 +47,6 @@ const skills: SkillType[] = [
   {
     name: "Tailwind CSS",
     Icon: SiTailwindcss,
-  },
-  {
-    name: "MySQL",
-    Icon: SiMysql,
   },
   {
     name: "Git",
