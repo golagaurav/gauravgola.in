@@ -16,14 +16,9 @@ import React from "react";
 import { FrontMatter } from "@lib/types";
 import Link from "next/link";
 import Greeting from "@components/Greeting";
-import Pets from "@components/Pets";
 import Seo from "@/components/Seo";
 
 export default function Home({ }: { blogs: FrontMatter[] }) {
-  const pets = [
-    { id: 1, url: '/img/zuse.png' },
-    { id: 2, url: '/img/Jarvis.png' }
-  ];
 
 
   return (
@@ -99,7 +94,6 @@ export default function Home({ }: { blogs: FrontMatter[] }) {
 
         <div>
           <SkillSection />
-          <Pets pets={pets} />
         </div>
       </div>
     </>
