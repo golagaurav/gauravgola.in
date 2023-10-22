@@ -30,6 +30,7 @@ module.exports = withPWA({
       "ubuupg.bn.files.1drv.com",
       "img.icons8.com",
       "image.tmdb.org",
+      "hcxgnw.sn.files.1drv.com",
     ],
   },
   typescript: {
