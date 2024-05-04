@@ -108,6 +108,12 @@ const utilities: Utilities = {
       title: "Mobile",
       data: [
         {
+          name: "Samsung S21 FE",
+          description: "Samsung Galaxy S21 FE 5G  ( 256 GB Olive)  (8 GB RAM)",
+          Icon: SiSamsung,
+          link: "https://www.amazon.in/Samsung-S21-FE-5G-Snapdragon/dp/B0CKTSFSQ3/ref=sr_1_4?sr=8-4",
+        },
+        {
           name: "Xiaomi 11X",
           description: "Xiaomi 11X 5G (Celestial Silver, 128 GB)  (6 GB RAM)",
           Icon: SiXiaomi,
