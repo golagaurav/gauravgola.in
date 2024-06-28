@@ -15,12 +15,19 @@ import {
   SiXiaomi,
   SiVivaldi,
   SiApple,
-  SiHp
+  SiHp,
+  SiWindowsxp,
+  SiWindows95,
+  SiWindows10,
+  SiWindows11,
 } from "react-icons/si";
 import {
-  BsWindows,
   BsGithub,
 } from "react-icons/bs";
+import { 
+  ImWindows8,
+
+} from "react-icons/im";
 import { FaGitAlt, FaSearch } from "react-icons/fa";
 import SVG from "@components/SVG";
 import { Utilities } from "@lib/types";
@@ -96,9 +103,33 @@ const utilities: Utilities = {
           link: "https://www.amazon.in/Acer-XZ396Q-Monitor-Speakers-Features/dp/B09RZR8YKQ/",
         },
         {
+          name: "Windows 95",
+          description: "Operating System",
+          Icon: SiWindows95,
+          link: "https://www.microsoft.com/software-download/windows95",
+        },
+        {
+          name: "Windows XP",
+          description: "Operating System",
+          Icon: SiWindowsxp,
+          link: "https://www.microsoft.com/software-download/windowsxp",
+        },
+        {
+          name: "Windows 8",
+          description: "Operating System",
+          Icon: ImWindows8,
+          link: "https://www.microsoft.com/software-download/windows8",
+        },
+        {
+          name: "Windows 10",
+          description: "Operating System",
+          Icon: SiWindows10,
+          link: "https://www.microsoft.com/software-download/windows10",
+        },
+        {
           name: "Windows 11",
           description: "Operating System",
-          Icon: BsWindows,
+          Icon: SiWindows11,
           link: "https://www.microsoft.com/software-download/windows11",
         },
       ],
@@ -107,6 +138,12 @@ const utilities: Utilities = {
     {
       title: "Mobile",
       data: [
+        {
+          name: "Samsung S21 FE",
+          description: "Samsung Galaxy S21 FE 5G  ( 256 GB Olive)  (8 GB RAM)",
+          Icon: SiSamsung,
+          link: "https://www.amazon.in/Samsung-S21-FE-5G-Snapdragon/dp/B0CKTSFSQ3/ref=sr_1_4?sr=8-4",
+        },
         {
           name: "Xiaomi 11X",
           description: "Xiaomi 11X 5G (Celestial Silver, 128 GB)  (6 GB RAM)",

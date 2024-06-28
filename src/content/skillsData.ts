@@ -17,6 +17,9 @@ import {
   SiVuedotjs,
   SiVultr,
   SiYarn,
+  SiPnpm,
+  SiNpm,
+  
 } from "react-icons/si";
 
 const skills: SkillType[] = [
@@ -75,6 +78,14 @@ const skills: SkillType[] = [
   {
     name: "Yarn",
     Icon: SiYarn,
+  },
+  {
+    name: "Npm",
+    Icon: SiNpm,
+  },
+  {
+    name: "Pnpm",
+    Icon: SiPnpm,
   },
   {
     name: "Vultr",

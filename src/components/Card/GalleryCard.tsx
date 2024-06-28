@@ -160,7 +160,7 @@ const GalleryCard: React.FC = () => {
       {selectedIndex !== null && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50">
           {files[selectedIndex].file.mimeType.startsWith('image/') ? (
-            <img src={files[selectedIndex]['@content.downloadUrl']} alt="Rock Star" className="max-w-full max-h-full" />
+            <img src={files[selectedIndex]['@content.downloadUrl']} alt="Gaurav Gola" className="max-w-full max-h-full" />
           ) : (
             <video src={files[selectedIndex]['@content.downloadUrl']} className="max-w-full max-h-full" controls />
           )}
