@@ -21,6 +21,7 @@ type Props = {
 
 export default function CodeTitle({ title, lang }: Props) {
   let Icon;
+
   switch (lang) {
     case "html":
       Icon = SiHtml5;
@@ -58,16 +59,18 @@ export default function CodeTitle({ title, lang }: Props) {
     case "vercel":
       Icon = SiVercel;
       break;
-    case "ts" || "tsx":
+    case "ts":
+    case "tsx":
       Icon = SiTypescript;
       break;
     default:
       Icon = BsFileEarmarkCodeFill;
       break;
   }
+
   return (
     <div className="relative !z-10">
-      <div className="bg-white text-darkSecondary dark:bg-darkSecondary dark:text-gray-200  rounded-tl-md rounded-tr-md p-3  flex items-center justify-between font-mono !mt-4 overflow-x-scroll xs:overflow-auto border border-black   dark:border-gray-200/60  ">
+      <div className="bg-white text-darkSecondary dark:bg-darkSecondary dark:text-gray-200 rounded-tl-md rounded-tr-md p-3 flex items-center justify-between font-mono !mt-4 overflow-x-scroll xs:overflow-auto border border-black dark:border-gray-200/60">
         <div className="flex items-center gap-2">
           <Icon className="flex items-center w-4 h-4" />
           <p className="!my-0 font-[500] text-sm">{title || lang}</p>
